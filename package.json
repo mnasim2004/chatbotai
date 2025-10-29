@@ -1,0 +1,13 @@
+{
+  "name": "chatbotai",
+  "version": "1.0.0",
+  "description": "Chatbot AI Platform - Full Stack Application",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && nodemon src/server.js",
+    "build:frontend": "cd frontend && npm run build",
+    "install:all": "cd frontend && npm install && cd ../backend && npm install"
+  }
+}
+
