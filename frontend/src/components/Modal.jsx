@@ -37,7 +37,7 @@ export default function Modal({ isOpen, onClose, title, children, size = 'medium
       />
       
       {/* Modal */}
-      <div className={`relative bg-white rounded-lg shadow-xl w-full ${sizeClasses[size]} max-h-[90vh] overflow-hidden border border-gray-200 animate-modal-in ${containerClassName}`}>
+      <div className={`relative bg-white rounded-lg shadow-xl w-[90vw] sm:w-full ${sizeClasses[size]} max-h-[90vh] overflow-hidden border border-gray-200 animate-modal-in ${containerClassName}`}>
         {/* Header */}
         {!hideHeader && (
           <div className="flex items-center justify-between px-4 py-3 border-b border-gray-200 bg-gray-50">

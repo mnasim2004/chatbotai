@@ -305,7 +305,7 @@ import ChatBot from "./botembed";
         containerClassName="bg-transparent border-0 shadow-none"
       >
         {embedModal.bot && (
-          <div className="w-[320px] mx-auto bg-white text-black rounded-2xl p-6 pb-8 text-center">
+          <div className="w-full max-w-sm mx-auto bg-white text-black rounded-2xl p-6 pb-8 text-center">
             <div className="flex justify-end">
               <button onClick={() => setEmbedModal({ open: false, bot: null })} className="w-7 h-7 text-[18px] text-gray-400 hover:text-gray-600">✖</button>
             </div>
