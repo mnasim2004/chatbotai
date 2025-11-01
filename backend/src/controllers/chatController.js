@@ -41,7 +41,7 @@ ${limitedImages.map((img, i) => `- ${i + 1}. ${truncate(img.description || '', 8
 Links (use only if relevant):
 ${limitedLinks.map((lnk, i) => `- ${i + 1}. ${truncate(lnk.description || '', 60)} | ${lnk.url}`).join('\n')}
 
-Contacts (available if relevant):
+Contacts (available if relevant,no need to specify contact everytime , when you dont know the answer or asked then specify it or for contact details ):
 ${chatbot.contact?.email ? `Email: ${chatbot.contact.email}` : ''}
 ${chatbot.contact?.phone ? `Phone: ${chatbot.contact.phone}` : ''}
 ${chatbot.contact?.website ? `Website: ${chatbot.contact.website}` : ''}

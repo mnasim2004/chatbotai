@@ -84,7 +84,7 @@ export default function AuthSlider() {
   return (
     <div className="auth-slider-root animate-fadeInUp">
       <div className="container animate-scaleIn" id="container">
-        <div className="form-container sign-up-container animate-fadeInLeft">
+        <div className="form-container sign-up-container">
           <form onSubmit={handleSignup}>
             <h1>Create Account</h1>
             <div className="social-container animate-fadeInUp">
@@ -99,7 +99,7 @@ export default function AuthSlider() {
             <button type="submit" disabled={loading} className="animate-fadeInUp hover-glow">{loading ? 'Please wait...' : 'Sign Up'}</button>
           </form>
         </div>
-        <div className="form-container sign-in-container animate-fadeInRight">
+        <div className="form-container sign-in-container">
           <form onSubmit={handleSignin}>
             <h1>Login</h1>
             <div className="social-container animate-fadeInUp">
@@ -115,7 +115,7 @@ export default function AuthSlider() {
             <button type="button" className="ghost animate-fadeInUp hover-scale" onClick={handleTempLogin}>Continue as guest</button>
           </form>
         </div>
-        <div className="overlay-container animate-fadeInUp">
+        <div className="overlay-container">
           <div className="overlay">
             <div className="overlay-panel overlay-left">
               <h1>Welcome Back!</h1>
